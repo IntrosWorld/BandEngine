@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "band-physical-engine"
+version = "0.1.0"
+description = "Terminal physical-modeling renderer for Guitar Pro guitar, bass, and drum tracks"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "scipy>=1.14"]
+
+[project.scripts]
+band-engine = "bandengine.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bandengine*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
