@@ -12,8 +12,8 @@ import wave
 import numpy as np
 from scipy.signal import butter, sosfilt
 
-import guitar_physics as phys
-import amp_effects
+from . import guitar_physics as phys
+from . import amp_effects
 
 ROOT = Path(__file__).resolve().parents[1]
 
