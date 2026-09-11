@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@coderline/alphaskia": "^3.5.147",
+    "@coderline/alphaskia-windows": "^3.5.147",
+    "@coderline/alphatab": "^1.8.3"
+  }
+}
